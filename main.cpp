@@ -4,7 +4,7 @@ int nth_term = 9;   //set the Fibonacci sequence length to 9
 int term_1, term_2; //set integers named term_1 and term_2     
 int next_term = 0;  //set integer next_term to 0
 
-int main() {        //start main progran
+int main() {        //start main program using a simple for loop
     term_1 = 0;       //set term_1 to 0
     term_2 = 1;       //set term_\2 to 1
     printf("Fibonacci Number sequence length is %d \r\n", nth_term);    //print Lab 2 and number of terms
