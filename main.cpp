@@ -7,7 +7,7 @@ int next_term = 0;  //set integer next_term to 0
 int main() {        //start main program using a simple for loop
     term_1 = 0;       //set term_1 to 0
     term_2 = 1;       //set term_\2 to 1
-    printf("Fibonacci Number sequence length is %d \r\n", nth_term);    //print Lab 2 and number of terms
+    printf("Fibonacci Number sequence length is %d \r\n", nth_term);    //print  information and number of terms
     printf("0, 1, ");                                     //print 0,1 always for sequence start
         for(int i = 2; i<nth_term;i++) {  //set i to 2 and increase by 1 for sequence, start for loop
         next_term = term_1+term_2;          //add two terms and store as next_term
